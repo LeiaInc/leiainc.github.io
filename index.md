@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[4V test file](./DandellionsSnip_2x2.mp4).
+[4V test file](./DandellionsSnip_2x2.mp4? raw=true).
 
 # Unity SDK
 
