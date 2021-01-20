@@ -19,3 +19,6 @@ layout: default
 
 # 4V video
 [Dandellion_2x2.mp4 - Shortened](https://github.com/LeiaInc/leiainc.github.io/raw/master/DandellionsSnip_2x2.mp4)
+
+# 4V image
+[Optician2x_2x2.jpg](https://github.com/LeiaInc/leiainc.github.io/raw/master/Optician2x_2x2.jpg)
