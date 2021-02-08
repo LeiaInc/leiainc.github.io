@@ -17,6 +17,9 @@ layout: default
 # Maya Plugin
 [Maya Plugin](https://github.com/LeiaInc/leiainc.github.io/raw/master/Maya/LeiaMayaPlugin_v013.zip)
 
+# Cinema4D
+[Guide] (https://github.com/LeiaInc/leiainc.github.io/raw/master/C4D/2%20Step%20Rendering%20with%20cinema%204d.pdf)
+
 # 4V video
 [Dandellion_2x2.mp4 - Shortened](https://github.com/LeiaInc/leiainc.github.io/raw/master/DandellionsSnip_2x2.mp4)
 
