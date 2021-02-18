@@ -9,9 +9,6 @@ layout: default
 
 # Unreal SDK
 [Unreal SDK - 0.0.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_Latest.zip)
-<br>
-[Unreal SDK - LeiaCamera](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_001_bf5adb8.zip)
-
 
 # Android Native SDK 
 [Android Native SDK - v0.0.5](https://github.com/LeiaInc/leiainc.github.io/raw/master/Android/LeiaLoft_NativeAndroid_SDK_2018-07-19.zip)
