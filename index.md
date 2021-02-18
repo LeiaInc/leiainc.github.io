@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Unity SDK
+[Unity SDK - 0.6.17](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_v0.6.17.zip)
 [Unity SDK - 0.6.16](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_v0.6.16.zip)
 
 # Unreal SDK
