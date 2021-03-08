@@ -5,6 +5,17 @@ layout: default
 # Unity SDK
 [Unity SDK - 0.6.17](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.17.zip)
 <br>
+
+### What's New
+- Streamlined “About” window UX by adding Welcome screen, consolidating release notes and log settings into one location
+- Modified LeiaPostEffectsController to copy Leia effects to a LeiaView, not a GameObject
+- Enhanced LeiaPostEffectsController so when it copies a MonoBehaviour from a root Camera to a LeiaView Camera, it will now set any LeiaView references
+- Fixed frame rate drop when switching to 2D
+- Resolved issue where switching from 2D to 4V/Lightfield caused IndexOutOfBoundsException
+- Resolved LeiaPostEffectsController throwing error on Awake/Start if component is added during edit time
+- Various minor fixes since 0.6.16
+
+### Previous Unity Releases
 [Unity SDK - 0.6.16](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.16.zip)
 
 # Unreal SDK
