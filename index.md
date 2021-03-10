@@ -30,13 +30,12 @@ layout: default
 
 <!--- unreal_sdk_text_description_begin --->
 **Enhancements**
-- Added ZDP capability to LeiaCameraComponent with Auto ZDP and ZDP Shear strength with Blueprint callable functions.
+- Added ZDP capability to LeiaCameraComponent with Auto ZDP, ZDP Shear strength and Blueprint callable functions.
 - Adjusted examples to have better default values.
-- Added negative DOF material.
-- Added Transparency effect and threshold debug view.
 - LeiaCameraComponent will now search for CameraComponent to set as TargetCamera.
 - Added device specific DOF shader optimizations. 
-- Added raycast offset parameter to hook into UI.
+- Added negative DOF material.
+- Added Transparency effect and threshold debug view.
 
 **Bug Fixes**
 - Fixed issue with frustum not being available in builds. Frustum display is now set to false by default on builds.
