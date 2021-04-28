@@ -25,26 +25,16 @@ layout: default
 
 # Unreal SDK
 <!--- unreal_sdk_link_begin --->
-[Unreal SDK - 0.0.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_002_.4e4a563.zip)
+[Unreal SDK - 0.0.3](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_003.zip)
 <!--- unreal_sdk_link_end --->
 
 <!--- unreal_sdk_text_description_begin --->
 **Enhancements**
-- Added ZDP capability to LeiaCameraComponent with Auto ZDP, ZDP Shear strength and Blueprint callable functions.
-- Adjusted examples to have better default values.
-- LeiaCameraComponent will now search for CameraComponent to set as TargetCamera.
-- Added device specific DOF shader optimizations. 
-- Added negative DOF material.
-- Added Transparency effect and threshold debug view.
-
-**Bug Fixes**
-- Fixed issue with frustum not being available in builds. Frustum display is now set to false by default on builds.
-- Fixed issue where DOF material does not get added to cameras.
-- Fixed issue where Convergence Offset was being affected by forward position of LeiaCamera.
-- Fixed issue where touch input was not given to debug UI.
+- Render texture target gamma can now be set from LeiaCameraPawn/Component
 <!--- unreal_sdk_text_description_end --->
 
 ### Previous Unreal Releases
+[Unreal SDK - 0.0.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_002_.4e4a563.zip)
 [Unreal SDK - 0.0.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_001_bf5adb8.zip)
 
 # Android Native SDK 
