@@ -6,21 +6,24 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 0.6.17](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.17.zip)
+[Unity SDK - 0.6.18](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.18.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
 <!--- unity_sdk_text_description_begin --->
-- Streamlined “About” window UX by adding Welcome screen, consolidating release notes and log settings into one location
-- Modified LeiaPostEffectsController to copy Leia effects to a LeiaView, not a GameObject
-- Enhanced LeiaPostEffectsController so when it copies a MonoBehaviour from a root Camera to a LeiaView Camera, it will now set any LeiaView references
-- Fixed frame rate drop when switching to 2D
-- Resolved issue where switching from 2D to 4V/Lightfield caused IndexOutOfBoundsException
-- Resolved LeiaPostEffectsController throwing error on Awake/Start if component is added during edit time
-- Various minor fixes since 0.6.16
+Enhancements 
+- Added several future display profiles with 8 view support to LeiaDisplay.
+- Transitioned interlacing process to use "Slanted" shader rather than "Square" shader. Content visuals should stay generally the same.
+
+Bug Fixes
+- Resolved several bugs with ViewSharpening on rotatable devices. If you’ve previously tuned your ACT coefficients, please re-tune.
+- APKs made with the LeiaLoft SDK will no longer crash on a non-Leia devices.  Note that this may incur a performance hit compared to an APK with no Leia SDK.
+- Fixed issue where Lightfield Mode would occasionally turn off when switching between scenes.
+- Fixed issue where LeiaDevice sometimes incorrectly reported that a Leia device was a non-Leia Device.
 <!--- unity_sdk_text_description_end --->
 
 ### Previous Unity Releases
+[Unity SDK - 0.6.17](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.17.zip)
 [Unity SDK - 0.6.16](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.16.zip)
 
 # Unreal SDK
