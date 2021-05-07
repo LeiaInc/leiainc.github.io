@@ -47,11 +47,11 @@ Bug Fixes
 <!--- android_sdk_link_end --->
 # Blender Plugin
 <!--- blender_link_begin --->
-[Blender Plugin](https://github.com/LeiaInc/leiainc.github.io/raw/master/Blender/Leia+Blender+SDK.zip)
+[Blender Plugin - 1.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Blender/Leia+Blender+SDK.zip)
 <!--- blender_link_end --->
 # Maya Plugin
 <!--- maya_link_begin --->
-[Maya Plugin](https://github.com/LeiaInc/leiainc.github.io/raw/master/Maya/LeiaMayaPlugin_v013.zip)
+[Maya Plugin - 0.1.3](https://github.com/LeiaInc/leiainc.github.io/raw/master/Maya/LeiaMayaPlugin_v013.zip)
 <!--- maya_link_end --->
 # Cinema4D
 <!--- c4d_link_begin --->
