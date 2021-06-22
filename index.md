@@ -28,15 +28,18 @@ Bug Fixes
 
 # Unreal SDK
 <!--- unreal_sdk_link_begin --->
-[Unreal SDK - 0.0.3b](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_003b.zip)
+[Unreal SDK - 0.0.3c](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_003c.zip)
 <!--- unreal_sdk_link_end --->
 
 <!--- unreal_sdk_text_description_begin --->
 **Enhancements**
-- Fix for Debug Display Frustum no longer working in UE 4.26.
+- Fixed ghosting issue 
+- Fixed issue where “Use ZDP Share” and “Auto ZDP” default settings were causing distortion
+- Resolved issue where LeiaCineCameraPawn caused crash
 <!--- unreal_sdk_text_description_end --->
 
 ### Previous Unreal Releases
+[Unreal SDK - 0.0.3b](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_003b.zip)
 [Unreal SDK - 0.0.3a](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_003a.zip)<br>
 [Unreal SDK - 0.0.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_002_.4e4a563.zip)<br>
 [Unreal SDK - 0.0.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_001_bf5adb8.zip)
