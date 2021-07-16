@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 0.6.19](https://github.com/LeiaInc/leiainc.github.io/blob/master/Unity/LeiaUnitySDK_Public_v0.6.19.zip)
+[Unity SDK - 0.6.19](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
