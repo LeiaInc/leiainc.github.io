@@ -12,7 +12,7 @@ layout: default
 ### What's New
 <!--- unity_sdk_text_description_begin --->
 
-- Added support for Unity apps to enter ImmersiveMode on the Lume Pad. When the Lume Pad's lights are in ImmersiveMode, some periodic imagery can appear 3D but 2D content can simultaneously appear 2D. This is especially valuable for displaying periodic imagery in 3D while you display text at full resolution.
+</ul>Added support for Unity apps to enter ImmersiveMode on the Lume Pad. When the Lume Pad's lights are in ImmersiveMode, some periodic imagery can appear 3D but 2D content can simultaneously appear 2D. This is especially valuable for displaying periodic imagery in 3D while you display text at full resolution.
 
 - LeiaMedia : Automatically select best meda tile per view when media tiles do not match user's display. Fixed an ambiguous case where in 2D mode, LeiaMedia would show left most tile. Now in 2D, the left-leaning center tile is displayed.
 
