@@ -6,17 +6,32 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 0.6.19.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.1.zip)
+[Unity SDK - 0.6.20](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.20.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
 <!--- unity_sdk_text_description_begin --->
-Bug Fixes 
-- Resolved an issue where app would trigger conflicting SetBacklightMode and SetBacklightTransition calls especially on app re-open.
+
+Features
+
+    Added public beta Leia Unity SDK support for Unity Universal RenderPipeline, Universal RenderPipeline post-processing.
+    Added an API for BacklightSwitchController to use RequestLightBalanceBy to request a 2D/3D light balance over time.
+    Updated auto-focus to have more contextual options (raycasting, focus-on-target-mesh, depth map) and deliver demo scenes featuring auto-focus.
+
+Fixes
+
+    Resolved an issue where shaders or other assets would sometimes not be found by Unity.
+    Removed many obsolete classes including
+        - json classes which are superseded by JsonParamCollection
+        - {Android, etc.}LeiaDeviceBehaviours; instead refer to {*}LeiaDevice
+        - all ViewSharpening classes; instead ViewSharpening is performed using Graphics.Blit
+        - several obsolete LeiaView, LeiaCameraUtil, and LeiaMediaViewer methods
+
 <!--- unity_sdk_text_description_end --->
 
 ### Previous Unity Releases
 
+[Unity SDK - 0.6.19.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.1.zip)
 [Unity SDK - 0.6.19](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.zip) <br>
 [Unity SDK - 0.6.18.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.18_1.zip) <br>
 [Unity SDK - 0.6.18](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.18.zip) <br>
