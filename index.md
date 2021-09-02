@@ -31,7 +31,8 @@ Fixes
 
 ### Previous Unity Releases
 
-[Unity SDK - 0.6.19.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.1.zip)
+[Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
+[Unity SDK - 0.6.19.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.1.zip) <br>
 [Unity SDK - 0.6.19](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.zip) <br>
 [Unity SDK - 0.6.18.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.18_1.zip) <br>
 [Unity SDK - 0.6.18](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.18.zip) <br>
