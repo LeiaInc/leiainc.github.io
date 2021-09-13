@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import Stats from 'three/examples/jsm/libs/stats.module';
 import RenderController from './RenderController';
 import BackLightController from "./BackLightController";
-import { BacklightMode } from 'sevensummitswebglsdkdemo/src/Constants';
+import { BacklightMode } from './src/Constants';
 
 
 // ADD FULLSCREEN OPTION

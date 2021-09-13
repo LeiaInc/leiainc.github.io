@@ -1,4 +1,4 @@
-import {DeviceIds, DisplayConfigs, DeviceIdConfigMap } from "sevensummitswebglsdkdemo/src/Constants";
+import {DeviceIds, DisplayConfigs, DeviceIdConfigMap } from "./Constants";
 
 export default {
     initialize(window, navigator) {

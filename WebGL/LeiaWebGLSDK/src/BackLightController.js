@@ -1,5 +1,5 @@
 import ConfigController from "./ConfigController";
-import {BacklightMode, BACKLIGHT_URL} from "sevensummitswebglsdkdemo/src/Constants";
+import {BacklightMode, BACKLIGHT_URL} from "./Constants";
 
 export default  {
 
