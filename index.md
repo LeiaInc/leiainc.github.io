@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 0.6.20](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.20.zip)
+[Unity SDK - 0.6.21](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.21.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
@@ -14,30 +14,46 @@ layout: default
 
 Features
 
-    Added public beta Leia Unity SDK support for Unity Universal RenderPipeline, Universal RenderPipeline post-processing.
-    Added an API for BacklightSwitchController to use RequestLightBalanceBy to request a 2D/3D light balance over time.
-    Updated auto-focus to have more contextual options (raycasting, focus-on-target-mesh, depth map) and deliver demo scenes featuring auto-focus.
+        2021-10-28
+            Added a feature - Parallax 3D backgrounds. Users can render a scene with tuned LeiaCamera Baseline, then add in a 3D background with separate Baseline tuning. 
+            This addresses an issue where content near the convergence plane and content in the background / skybox sometimes could not both be shown with the best depth that developers desired.
+
+        2021-11-02
+            Promoted Auto-focus to a Module.
+            Consolidated common parameters and methods for LeiaDepthFocus, LeiaRaycastFocus, and LeiaTargetFocus into one base LeiaFocus script.
+
+        2021-10-05 - 2021-11-08
+            Improved the LeiaMediaRecorder's UI. LeiaMediaRecorder can now record tiled n x m LeiaMedia content to a user-specified directory.
+
+        2021-10-05
+            LeiaMediaViewer:  added MediaScaleMode option for controlling whether LeiaMediaViewer draws in game world or in pixel-perfect screen space.
+                World XYZ - behaves as any other object in the scene: respects transform and perspective distortion.
+                OnscreenPercent - use screen coordinates with given scale and offset percentage.Pixel-perfect view guaranteed for OnscreenPercent = [0, 0, 1, 1]
 
 Fixes
 
-    Resolved an issue where shaders or other assets would sometimes not be found by Unity.
-    Removed many obsolete classes including
-        - json classes which are superseded by JsonParamCollection
-        - {Android, etc.}LeiaDeviceBehaviours; instead refer to {*}LeiaDevice
-        - all ViewSharpening classes; instead ViewSharpening is performed using Graphics.Blit
-        - several obsolete LeiaView, LeiaCameraUtil, and LeiaMediaViewer methods
+        2021-12-08 to 2021-09-30
+            Resolved issues with LeiaCamera UI, convergence plane UI, LeiaCamera.CameraShift
+            Introduced a MinMaxPair data type to resolve several min/max UI issues
+            Resolved issues with LeiaRemote settings
+            Resolved issues with LeiaRecommendedSettings UI
+            Resolved issues with LeiaAutoFocus family of scripts
+            Resolved issues with LeiaMediaViewer UI
+            Resolved issues with LeiaPostEffectsController running reflection calls for every Behaviour on original Camera and LeiaView every frame
+            Resolved issue with OSX TiledGPUPerf, some deprecated calls to UnityEngine namespaces
 
 <!--- unity_sdk_text_description_end --->
 
 ### Previous Unity Releases
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
+[Unity SDK - 0.6.20](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.20.zip) <br>
 [Unity SDK - 0.6.19.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.1.zip) <br>
 [Unity SDK - 0.6.19](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.zip) <br>
 [Unity SDK - 0.6.18.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.18_1.zip) <br>
 [Unity SDK - 0.6.18](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.18.zip) <br>
 [Unity SDK - 0.6.17](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.17.zip) <br>
-[Unity SDK - 0.6.16](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.16.zip)
+[Unity SDK - 0.6.16](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.16.zip) <br>
 
 # Unreal SDK
 <!--- unreal_sdk_link_begin --->
