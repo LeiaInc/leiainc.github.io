@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 0.6.21](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.21.zip)
+[Unity SDK - 0.6.22](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.22.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
@@ -14,39 +14,38 @@ layout: default
 
 Features
 
-        2021-10-28
-            Added a feature - Parallax 3D backgrounds. Users can render a scene with tuned LeiaCamera Baseline, then add in a 3D background with separate Baseline tuning. 
-            This addresses an issue where content near the convergence plane and content in the background / skybox sometimes could not both be shown with the best depth that developers desired.
+        2022-06-25
+            Added convergency distance modification by handles transform.
+            Leia media recorder unity version recommendation.
 
-        2021-11-02
-            Promoted Auto-focus to a Module.
-            Consolidated common parameters and methods for LeiaDepthFocus, LeiaRaycastFocus, and LeiaTargetFocus into one base LeiaFocus script.
+        2022-06-22
+            LeiaDisplay support for edit mode
 
-        2021-10-05 - 2021-11-08
-            Improved the LeiaMediaRecorder's UI. LeiaMediaRecorder can now record tiled n x m LeiaMedia content to a user-specified directory.
+        2022-01-03
+            Modified LeiaConfigSettingsUI prefab to only show ACT Landscape or ACT Portrait depending upon device orientation.
 
-        2021-10-05
-            LeiaMediaViewer:  added MediaScaleMode option for controlling whether LeiaMediaViewer draws in game world or in pixel-perfect screen space.
-                World XYZ - behaves as any other object in the scene: respects transform and perspective distortion.
-                OnscreenPercent - use screen coordinates with given scale and offset percentage.Pixel-perfect view guaranteed for OnscreenPercent = [0, 0, 1, 1]
+        2021-12-27
+            We can copy data again using more robust process. The other one broke with PPSV2 due to PPSV2 issue.
+            Remove special reference storage dictionary which was allowing us to avoid special cases. Now have special cases for root Camera reference (gets LeiaView's reference), LeiaView (gets this LeiaView reference), and CommandBuffer (set to null to avoid tracking another Camera's CB)
+            There are 4 Unity PPS CBs, and 3 LeiaView CBs (2 for setting view index, 1 for un-setting view index)
+
+        2021-12-19
+            Standardized serialization of LeiaMedia types (Texture, Video, VideoURL). Scenes using LeiaMediaViewer and LeiaMediaViewer variables will need to be re-serialized.
 
 Fixes
 
-        2021-12-08 to 2021-09-30
-            Resolved issues with LeiaCamera UI, convergence plane UI, LeiaCamera.CameraShift
-            Introduced a MinMaxPair data type to resolve several min/max UI issues
-            Resolved issues with LeiaRemote settings
-            Resolved issues with LeiaRecommendedSettings UI
-            Resolved issues with LeiaAutoFocus family of scripts
-            Resolved issues with LeiaMediaViewer UI
-            Resolved issues with LeiaPostEffectsController running reflection calls for every Behaviour on original Camera and LeiaView every frame
-            Resolved issue with OSX TiledGPUPerf, some deprecated calls to UnityEngine namespaces
+        2021-12-23
+            Resolved an issue where Leia Unity SDK and Unity's PostProcessingStack V3 together would generate many NullReferenceExceptions every frame.
+
+        2021-12-01
+            Resolved an issue where convergence plane would always be drawn for full screen, even when LeiaCamera's ViewportRect was smaller than full screen.
 
 <!--- unity_sdk_text_description_end --->
 
 ### Previous Unity Releases
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
+[Unity SDK - 0.6.21](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.21.zip) <br>
 [Unity SDK - 0.6.20](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.20.zip) <br>
 [Unity SDK - 0.6.19.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.1.zip) <br>
 [Unity SDK - 0.6.19](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.zip) <br>
@@ -62,7 +61,7 @@ Fixes
 
 <!--- unreal_sdk_text_description_begin --->
 **Enhancements**
-- Fixed ghosting issue 
+- Fixed ghosting issue
 - Fixed issue where “Use ZDP Share” and “Auto ZDP” default settings were causing distortion
 - Resolved issue where LeiaCineCameraPawn caused crash
 <!--- unreal_sdk_text_description_end --->
@@ -73,7 +72,7 @@ Fixes
 [Unreal SDK - 0.0.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_002_.4e4a563.zip)<br>
 [Unreal SDK - 0.0.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unreal/LeiaLoft_Unreal_SDK_LeiaCamera_001_bf5adb8.zip)
 
-# Android Native SDK 
+# Android Native SDK
 <!--- android_sdk_link_begin --->
 [Android Native SDK - v0.0.5](https://github.com/LeiaInc/leiainc.github.io/raw/master/Android/LeiaLoft_NativeAndroid_SDK_2018-07-19.zip)
 <!--- android_sdk_link_end --->
