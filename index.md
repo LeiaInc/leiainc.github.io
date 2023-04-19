@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 0.6.22](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.22.zip)
+[Unity SDK - 2.2.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.0.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
@@ -14,37 +14,17 @@ layout: default
 
 Features
 
-        2022-06-25
-            Added convergency distance modification by handles transform.
-            Leia media recorder unity version recommendation.
+Lumepad 2 support!
 
-        2022-06-22
-            LeiaDisplay support for edit mode
-
-        2022-01-03
-            Modified LeiaConfigSettingsUI prefab to only show ACT Landscape or ACT Portrait depending upon device orientation.
-
-        2021-12-27
-            We can copy data again using more robust process. The other one broke with PPSV2 due to PPSV2 issue.
-            Remove special reference storage dictionary which was allowing us to avoid special cases. Now have special cases for root Camera reference (gets LeiaView's reference), LeiaView (gets this LeiaView reference), and CommandBuffer (set to null to avoid tracking another Camera's CB)
-            There are 4 Unity PPS CBs, and 3 LeiaView CBs (2 for setting view index, 1 for un-setting view index)
-
-        2021-12-19
-            Standardized serialization of LeiaMedia types (Texture, Video, VideoURL). Scenes using LeiaMediaViewer and LeiaMediaViewer variables will need to be re-serialized.
-
-Fixes
-
-        2021-12-23
-            Resolved an issue where Leia Unity SDK and Unity's PostProcessingStack V3 together would generate many NullReferenceExceptions every frame.
-
-        2021-12-01
-            Resolved an issue where convergence plane would always be drawn for full screen, even when LeiaCamera's ViewportRect was smaller than full screen.
+Please note, this SDK only supports Lumepad 2 devices. For Lumepad 1 support, please download [Unity SDK - 0.6.22](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.22.zip) 
 
 <!--- unity_sdk_text_description_end --->
 
 ### Previous Unity Releases
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
+
+[Unity SDK - 0.6.22](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.22.zip) <br>
 [Unity SDK - 0.6.21](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.21.zip) <br>
 [Unity SDK - 0.6.20](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.20.zip) <br>
 [Unity SDK - 0.6.19.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.19.1.zip) <br>
