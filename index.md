@@ -16,7 +16,7 @@ Features
 
 Lumepad 2 support!
 
-Please note, this SDK only supports Lumepad 2 devices. For Lumepad 1 support, please download [Unity SDK - 0.6.22](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.22.zip) 
+Please note, this SDK only supports Lumepad 2 devices. Lumepad 1 SDK, 0.6.22, will have limited support moving forward
 
 <!--- unity_sdk_text_description_end --->
 
