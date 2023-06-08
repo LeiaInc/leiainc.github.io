@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 2.2.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.0.zip)
+[Unity SDK - 2.2.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.1.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
@@ -14,9 +14,11 @@ layout: default
 
 Features
 
-Lumepad 2 support!
-
-Please note, this SDK only supports Lumepad 2 devices. Lumepad 1 SDK, 0.6.22, will have limited support moving forward.
+    Default LeiaVirtualDisplay to DrivenByCamera
+    
+    Resolved error messages where Baseline would sometimes default to 1
+    
+    Use CNSDK rendering wen Using OpenGL and have 2 Views
 
 <!--- unity_sdk_text_description_end --->
 
@@ -24,6 +26,7 @@ Please note, this SDK only supports Lumepad 2 devices. Lumepad 1 SDK, 0.6.22, wi
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
 
+[Unity SDK - 2.2.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.0.zip) <br>
 [Unity SDK - 0.6.22](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.22.zip) <br>
 [Unity SDK - 0.6.21](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.21.zip) <br>
 [Unity SDK - 0.6.20](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.20.zip) <br>
