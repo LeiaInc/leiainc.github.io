@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 2.2.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.2.zip)
+[Unity SDK - 2.2.3](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.3.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
@@ -14,7 +14,7 @@ layout: default
 
 Features
 
-    Removed eyetracking status bar
+    Fixed an issue with camera permissions dialog appearing when it shouldn't
 
 <!--- unity_sdk_text_description_end --->
 
@@ -22,6 +22,7 @@ Features
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
 
+[Unity SDK - 2.2.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.2.zip)
 [Unity SDK - 2.2.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.1.zip) <br>
 [Unity SDK - 2.2.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.0.zip) <br>
 [Unity SDK - 0.6.22](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v0.6.22.zip) <br>
