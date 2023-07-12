@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['kleiafacedetectorbackendcpu_0',['kLeiaFaceDetectorBackendCPU',['../common_2types_8h.html#aa1efe1bb1697f225b75413911445bf7aacd0d28989bc9f7cdcf1073e16d2c11c1',1,'types.h']]],
+  ['kleiafacedetectorbackendgpu_1',['kLeiaFaceDetectorBackendGPU',['../common_2types_8h.html#aa1efe1bb1697f225b75413911445bf7aa427a95c9b60ba760072185c1597fc292',1,'types.h']]],
+  ['kleiafacedetectorbackendunknown_2',['kLeiaFaceDetectorBackendUnknown',['../common_2types_8h.html#aa1efe1bb1697f225b75413911445bf7aa857d8fd0952a8d43abdaa557e38046fa',1,'types.h']]],
+  ['kleiafacedetectorinputtypecpu_3',['kLeiaFaceDetectorInputTypeCPU',['../common_2types_8h.html#a1ef58faa89c400cb410cba4419a4de5aae6e2860c9385f2fb2e0ca29b94c7be3f',1,'types.h']]],
+  ['kleiafacedetectorinputtypegpu_4',['kLeiaFaceDetectorInputTypeGPU',['../common_2types_8h.html#a1ef58faa89c400cb410cba4419a4de5aaaa152764c86b89cea46f15e3c5acf471',1,'types.h']]],
+  ['kleiafacedetectorinputtypeunknown_5',['kLeiaFaceDetectorInputTypeUnknown',['../common_2types_8h.html#a1ef58faa89c400cb410cba4419a4de5aa3dacedc86ce1e2f8db88298caba0f35a',1,'types.h']]],
+  ['kleiaheadtrackinglefteyeidx_6',['kLeiaHeadTrackingLeftEyeIdx',['../head_tracking_2common_2types_8h.html#a356c35cd6d8017c69394f25a027804e0a77378404f1bae6841e537ccdd73bd735',1,'types.h']]],
+  ['kleiaheadtrackingnumeyes_7',['kLeiaHeadTrackingNumEyes',['../head_tracking_2common_2types_8h.html#a356c35cd6d8017c69394f25a027804e0a6ee8d2ef89822a732d8e2428b4594b3a',1,'types.h']]],
+  ['kleiaheadtrackingrighteyeidx_8',['kLeiaHeadTrackingRightEyeIdx',['../head_tracking_2common_2types_8h.html#a356c35cd6d8017c69394f25a027804e0a5d67b032e45dedc36ae004b0335d99db',1,'types.h']]],
+  ['kleiaheadtrackingstatuserrorinvalidinstance_9',['kLeiaHeadTrackingStatusErrorInvalidInstance',['../head_tracking_2common_2types_8h.html#ac36f475ca5b446f4fde4c9b90bec77c8ac215a0d70953174e17360b299b19c9cf',1,'types.h']]],
+  ['kleiaheadtrackingstatuserrorunknown_10',['kLeiaHeadTrackingStatusErrorUnknown',['../head_tracking_2common_2types_8h.html#ac36f475ca5b446f4fde4c9b90bec77c8a0b2bacf6d14a832d615d6f9562b6529a',1,'types.h']]],
+  ['kleiaheadtrackingstatussuccess_11',['kLeiaHeadTrackingStatusSuccess',['../head_tracking_2common_2types_8h.html#ac36f475ca5b446f4fde4c9b90bec77c8a140ca92108509064bce47b40e16abc37',1,'types.h']]],
+  ['kleialoglevelcritical_12',['kLeiaLogLevelCritical',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a4f07564955701e8ba89fb232ec1a9d47',1,'log.h']]],
+  ['kleialogleveldebug_13',['kLeiaLogLevelDebug',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a12ebe87705cd6ebddc76d739600a25e3',1,'log.h']]],
+  ['kleialogleveldefault_14',['kLeiaLogLevelDefault',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ae6fb8dc53310d0518cc36ea139d43f44',1,'log.h']]],
+  ['kleialoglevelerror_15',['kLeiaLogLevelError',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7af1f87f09f333140af18c109056357936',1,'log.h']]],
+  ['kleialoglevelinfo_16',['kLeiaLogLevelInfo',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7aeaa0716bba646ceaf39e9e7b3611044a',1,'log.h']]],
+  ['kleialogleveloff_17',['kLeiaLogLevelOff',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a9292a9263f5ba9c5c562da35688e3bbd',1,'log.h']]],
+  ['kleialogleveltrace_18',['kLeiaLogLevelTrace',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a3bad76615ac4d1c62375360eb2ca77d5',1,'log.h']]],
+  ['kleialoglevelwarn_19',['kLeiaLogLevelWarn',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a8a5391bc0aa21b122127625b099a0cf7',1,'log.h']]],
+  ['knumleiafacedetectorbackends_20',['kNumLeiaFaceDetectorBackends',['../common_2types_8h.html#aa1efe1bb1697f225b75413911445bf7aa632e6607d6fab31c58b7844220f3ab7d',1,'types.h']]],
+  ['knumleiafacedetectorinputtypes_21',['kNumLeiaFaceDetectorInputTypes',['../common_2types_8h.html#a1ef58faa89c400cb410cba4419a4de5aad7e362116e3608c7414284d3e7910a9a',1,'types.h']]],
+  ['knumleialoglevels_22',['kNumLeiaLogLevels',['../log_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a842c176538249fcfcd0604478526aeec',1,'log.h']]]
+];

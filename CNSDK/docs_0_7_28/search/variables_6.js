@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['facedetectorendtime_0',['faceDetectorEndTime',['../structleia__headtracking__frame__profiling.html#afb41cb8a70d9f02dc77f2fe6a03f9e41',1,'leia_headtracking_frame_profiling']]],
+  ['facedetectorstarttime_1',['faceDetectorStartTime',['../structleia__headtracking__frame__profiling.html#a7cc8fbdf0024c20f41d31dfff117fb49',1,'leia_headtracking_frame_profiling']]],
+  ['facepredictalphax_2',['facePredictAlphaX',['../structleia__device__config.html#a57a00d8f8444f31166af8cb66f0be698',1,'leia_device_config']]],
+  ['facepredictalphay_3',['facePredictAlphaY',['../structleia__device__config.html#afbdf404ef0b7cacac4feaf32fde132a1',1,'leia_device_config']]],
+  ['facepredictalphaz_4',['facePredictAlphaZ',['../structleia__device__config.html#a48e2d7ae01e6eaf1aa7314bc64f4cc61',1,'leia_device_config']]],
+  ['facepredictbeta_5',['facePredictBeta',['../structleia__device__config.html#a4b90500cd656711ae068ff6b35b4d720',1,'leia_device_config']]],
+  ['facepredictlatencyms_6',['facePredictLatencyMs',['../structleia__device__config.html#a2d0de4562a616eb3badff711a4513fcb',1,'leia_device_config']]],
+  ['faces_7',['faces',['../structleia__headtracking__raw__faces.html#a8789f451bbc3b13b8f3a5cb3a3f1376e',1,'leia_headtracking_raw_faces::faces'],['../structleia__headtracking__detected__faces.html#a2f794e7a927c3ca4d27d94fcf18849b1',1,'leia_headtracking_detected_faces::faces'],['../structleia__headtracking__tracking__result.html#a793bd0365ceebe1544923ccf4083f09c',1,'leia_headtracking_tracking_result::faces']]],
+  ['facetrackingheadposezlowpassalpha_8',['faceTrackingHeadPoseZLowPassAlpha',['../structleia__device__config.html#a676175059105aee921558c3da80ebd98',1,'leia_device_config']]],
+  ['facetrackingmaxnumoffaces_9',['faceTrackingMaxNumOfFaces',['../structleia__device__config.html#ae28940bc898e9f5f748ff4068a999deb',1,'leia_device_config']]],
+  ['facetrackingsinglefaceenable_10',['faceTrackingSingleFaceEnable',['../structleia__device__config.html#af2ed5f8f1d2d724ed4b69fea2c28e435',1,'leia_device_config']]],
+  ['facetrackingsinglefacetoofardistancethreshold_11',['faceTrackingSingleFaceTooFarDistanceThreshold',['../structleia__device__config.html#a56417dcd9c6ba9f838c9407003ab0317',1,'leia_device_config']]],
+  ['facetrackingsinglefacetoofarresettimeoutms_12',['faceTrackingSingleFaceTooFarResetTimeoutMs',['../structleia__device__config.html#acc7103ed5fcf3a71617edd885cdb3b9f',1,'leia_device_config']]],
+  ['filename_13',['filename',['../structleia__source__location.html#a7efa5e9c7494c7d4586359300221aa5d',1,'leia_source_location']]],
+  ['fontglobalscale_14',['fontGlobalScale',['../structleia__interlacer__gui__configuration.html#ae38fbef66fbfb9d842baea2e62cb0718',1,'leia_interlacer_gui_configuration']]],
+  ['fontsrvcpudeschandle_15',['fontSrvCpuDescHandle',['../structleia__interlacer__gui__configuration.html#a9fdb7fc6d8e4d80acdfb72ffc8395c79',1,'leia_interlacer_gui_configuration']]],
+  ['fontsrvgpudeschandle_16',['fontSrvGpuDescHandle',['../structleia__interlacer__gui__configuration.html#acc6eb48da180517bdec15256d13b4ec3',1,'leia_interlacer_gui_configuration']]],
+  ['funcname_17',['funcname',['../structleia__source__location.html#acfe7fa99b3c04a17dcf3856bb2394a6b',1,'leia_source_location']]],
+  ['fx_18',['fx',['../structleia__camera__intrinsics.html#a3ebaeeb2af54ad4cb13f0fb25c78a639',1,'leia_camera_intrinsics']]],
+  ['fy_19',['fy',['../structleia__camera__intrinsics.html#a49e77bf673d6b57520e348f4e34df5e3',1,'leia_camera_intrinsics']]]
+];
