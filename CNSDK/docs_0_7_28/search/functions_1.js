@@ -1,5 +1,0 @@
-var searchData=
-[
-  ['core_0',['Core',['../classleia_1_1sdk_1_1_core.html#a966addc16f59a01b18a2fd127687e69d',1,'leia::sdk::Core::Core(CoreInitConfiguration &amp;config)'],['../classleia_1_1sdk_1_1_core.html#a126da7c3db72a2cd236f4bacec168f2f',1,'leia::sdk::Core::Core(Core const &amp;)=delete'],['../classleia_1_1sdk_1_1_core.html#acb2548d4d9c921e434fddf5b56ef3641',1,'leia::sdk::Core::Core(Core &amp;&amp;)=delete'],['../classleia_1_1sdk_1_1_core.html#a6697cc7c15b10e57f8e46cf52641a691',1,'leia::sdk::Core::Core(leia_core *core)']]],
-  ['coreinitconfiguration_1',['CoreInitConfiguration',['../classleia_1_1sdk_1_1_core_init_configuration.html#ad80ff7d7f4b9feaadfd8b08926ced015',1,'leia::sdk::CoreInitConfiguration::CoreInitConfiguration()'],['../classleia_1_1sdk_1_1_core_init_configuration.html#a44a34aa30d65baa9564051434f96ebf2',1,'leia::sdk::CoreInitConfiguration::CoreInitConfiguration(CoreInitConfiguration const &amp;)=delete'],['../classleia_1_1sdk_1_1_core_init_configuration.html#af1ef8121df093410e2d9ce6ec8a5f27d',1,'leia::sdk::CoreInitConfiguration::CoreInitConfiguration(CoreInitConfiguration &amp;&amp;)=delete']]]
-];
