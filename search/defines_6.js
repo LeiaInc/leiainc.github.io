@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['leia_5fclass_5fexport_0',['LEIA_CLASS_EXPORT',['../defines_8h.html#a8cddee82bdc3ccf2bc96fb78e5406617',1,'defines.h']]],
+  ['leia_5fclass_5fimport_1',['LEIA_CLASS_IMPORT',['../defines_8h.html#aefec62fa2e5f1692a2e371164fc51cea',1,'defines.h']]],
+  ['leia_5fcommon_5fapi_2',['LEIA_COMMON_API',['../common_2api_8h.html#abc1604b121946b7138f44525d203a249',1,'api.h']]],
+  ['leia_5fcommon_5fclass_5fapi_3',['LEIA_COMMON_CLASS_API',['../common_2api_8h.html#ae7cbab57ec652abcde349e317766ff03',1,'api.h']]],
+  ['leia_5fconst_5ffloat_5fslice_4',['LEIA_CONST_FLOAT_SLICE',['../slice_8h.html#ab11b02dd2b8e9b4db1ad27bfb2e7dd1a',1,'slice.h']]],
+  ['leia_5fdeprecated_5',['LEIA_DEPRECATED',['../defines_8h.html#a8bfc2a0c2e1885baf453a8f923a8b57a',1,'defines.h']]],
+  ['leia_5fexport_6',['LEIA_EXPORT',['../defines_8h.html#adb10c7d8e9e29dd7e2388f4bae04140b',1,'defines.h']]],
+  ['leia_5ffloat_5fslice_7',['LEIA_FLOAT_SLICE',['../slice_8h.html#a87b894268916eaa6044e23d385f70af0',1,'slice.h']]],
+  ['leia_5fforce_5finline_8',['LEIA_FORCE_INLINE',['../defines_8h.html#a580ea19e1cdd8e72fc6943a64346b275',1,'defines.h']]],
+  ['leia_5ffunction_9',['LEIA_FUNCTION',['../defines_8h.html#aedef9975846432e86e65be9bd08554f2',1,'defines.h']]],
+  ['leia_5fheadtracking_5fmax_5fnum_5ffaces_10',['LEIA_HEADTRACKING_MAX_NUM_FACES',['../head_tracking_2common_2types_8h.html#a0c2f1c6288ffe759dcaf441a0122ec80',1,'types.h']]],
+  ['leia_5fhidden_11',['LEIA_HIDDEN',['../defines_8h.html#ab86f6b6e1abc2eb2931e6cdfb6ec49e2',1,'defines.h']]],
+  ['leia_5fimport_12',['LEIA_IMPORT',['../defines_8h.html#ac4206a219509db8f5d0f0a2b0ab54d28',1,'defines.h']]],
+  ['leia_5fnodiscard_13',['LEIA_NODISCARD',['../defines_8h.html#aba7c8d958c54cc7976501b020023263b',1,'defines.h']]],
+  ['leia_5fsource_5flocation_14',['LEIA_SOURCE_LOCATION',['../common_2types_8h.html#a505ce9ca86aa80cc880c8691a2d6484d',1,'types.h']]],
+  ['leia_5fstringize_15',['LEIA_STRINGIZE',['../defines_8h.html#a655b4b19420755007fa9545127e00e8c',1,'defines.h']]],
+  ['leia_5fuse_5fopengl_16',['LEIA_USE_OPENGL',['../defines_8h.html#a77e73c9173b6be59f08203810220c713',1,'defines.h']]],
+  ['leia_5fx32_17',['LEIA_X32',['../defines_8h.html#a23c861cff17e5ec74534251088059bc8',1,'defines.h']]],
+  ['leiadevice_5fapi_18',['LEIADEVICE_API',['../device_2api_8h.html#ae5bd2c7f7740fbecfcab1ac71533ea57',1,'api.h']]],
+  ['leiasdk_5fapi_19',['LEIASDK_API',['../sdk_2api_8h.html#af59ff29ecb7f9698f895388093bfe1f6',1,'api.h']]],
+  ['lht_5fcommon_5fapi_20',['LHT_COMMON_API',['../head_tracking_2common_2api_8h.html#ae10ce2637ec0dd00f09e4884b3660258',1,'api.h']]],
+  ['lnk_5fassert_21',['LNK_ASSERT',['../assert_8h.html#a853549b99c4d87023dc05194ccfb8fe8',1,'assert.h']]]
+];
