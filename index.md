@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 2.2.4](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.4.zip)
+[Unity SDK - 2.2.5](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.5.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
@@ -14,9 +14,10 @@ layout: default
 
 Features
 
-    Fixed screen turns black when Android tablet awakens from sleep mode.
-    Fixed compile errors occurring in editor when build target set to "PC, Mac & Linux Standalone"
-    Resolved warning messages in editor related to unreachable code and unused fields
+    Added new LeiaCanvas module and sample scene
+    Added new model viewer sample scene
+    Lowered minimum required Android API from 30 to 29
+    Allow independent control of baseline scaling and convergence distance from all autofocus methods
 
 <!--- unity_sdk_text_description_end --->
 
@@ -24,6 +25,7 @@ Features
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
 
+[Unity SDK - 2.2.4](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.4.zip)
 [Unity SDK - 2.2.3](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.3.zip) <br>
 [Unity SDK - 2.2.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.2.zip) <br>
 [Unity SDK - 2.2.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.1.zip) <br>
