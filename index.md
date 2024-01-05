@@ -6,15 +6,31 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 3.1.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_v3.1.1.zip)
+[Unity SDK - 3.1.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_v3.1.0.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
 <!--- unity_sdk_text_description_begin --->
 
-Features
+3.0.2
+    Fixed aspect ratio in safezone gizmo
+    Bug fix: Issue switching between 2D scenes and 3D scenes
+    Update CNSDK to 0.7.120
 
-    First Plugin with support for both Windows and Android LeiaSR devices
+3.0.1
+    Added Antialiasing to Leia Display for eye's render textures
+    Bug fix: Leia Display should not be tagged with dontDestroyOnLoad
+    Add safezone gizmo
+    Windows: Update SRCore to 1.28.1, fetch firmware values
+    Upgrade URP support
+
+3.0.0
+    Android: Update CNSDK to 0.7.94
+    Android: Runtime toggle for 2D / 3D rendering
+    URP support
+    Android, Windows: Cross-comptatable
+    Display Centric and Camera Centric core functionality is working
+    Simplified plugin architecture (old: v2, new: v3)
 
 <!--- unity_sdk_text_description_end --->
 
@@ -22,9 +38,8 @@ Features
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
 
-[Unity SDK - 3.1.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_3_0_1.zip)
-[Unity SDK - 2.2.5](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.5.zip)
-[Unity SDK - 2.2.4](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.4.zip)
+[Unity SDK - 2.2.5](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.5.zip) <br>
+[Unity SDK - 2.2.4](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.4.zip) <br>
 [Unity SDK - 2.2.3](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.3.zip) <br>
 [Unity SDK - 2.2.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.2.zip) <br>
 [Unity SDK - 2.2.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.1.zip) <br>
