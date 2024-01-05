@@ -6,7 +6,7 @@ layout: default
 
 # Unity SDK
 <!--- unity_sdk_link_begin --->
-[Unity SDK - 2.2.5](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.5.zip)
+[Unity SDK - 3.1.1](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_v3.1.1.zip)
 <br>
 <!--- unity_sdk_link_end --->
 ### What's New
@@ -14,10 +14,7 @@ layout: default
 
 Features
 
-    Added new LeiaCanvas module and sample scene
-    Added new model viewer sample scene
-    Lowered minimum required Android API from 30 to 29
-    Allow independent control of baseline scaling and convergence distance from all autofocus methods
+    First Plugin with support for both Windows and Android LeiaSR devices
 
 <!--- unity_sdk_text_description_end --->
 
@@ -25,6 +22,8 @@ Features
 
 [Leia Unity SDK LeiaRemote v2 - latest](https://github.com/LeiaInc/leiainc.github.io/raw/master/LeiaRemote2/LeiaRemote2_Latest.zip) <br>
 
+[Unity SDK - 3.1.0](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_3_0_1.zip)
+[Unity SDK - 2.2.5](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.5.zip)
 [Unity SDK - 2.2.4](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.4.zip)
 [Unity SDK - 2.2.3](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.3.zip) <br>
 [Unity SDK - 2.2.2](https://github.com/LeiaInc/leiainc.github.io/raw/master/Unity/LeiaUnitySDK_Public_v2.2.2.zip) <br>
